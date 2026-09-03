@@ -24,3 +24,4 @@ dist-ssr
 *.sw?
 # Server environment variables
 server/.envserver/.env
+server/.env
