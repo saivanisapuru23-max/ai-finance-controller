@@ -1,0 +1,52 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850">
+<rect width="1400" height="850" fill="#ffffff"/>
+<text x="700" y="65" text-anchor="middle" font-family="Arial" font-size="34" font-weight="bold" fill="#111827">FinanceAI System Architecture</text>
+
+<rect x="500" y="110" width="400" height="90" rx="18" fill="#f3f4f6" stroke="#111827" stroke-width="2"/>
+<text x="700" y="150" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#111827">Business Financial Data</text>
+<text x="700" y="178" text-anchor="middle" font-family="Arial" font-size="16" fill="#4b5563">Revenue • Expenses • Cash Flow • Transactions</text>
+
+<line x1="700" y1="200" x2="700" y2="255" stroke="#111827" stroke-width="4"/>
+<polygon points="700,270 690,250 710,250" fill="#111827"/>
+
+<rect x="500" y="270" width="400" height="90" rx="18" fill="#f3f4f6" stroke="#111827" stroke-width="2"/>
+<text x="700" y="310" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#111827">React + Vite Frontend</text>
+<text x="700" y="338" text-anchor="middle" font-family="Arial" font-size="16" fill="#4b5563">Interactive Finance Dashboard</text>
+
+<line x1="700" y1="360" x2="700" y2="415" stroke="#111827" stroke-width="4"/>
+<polygon points="700,430 690,410 710,410" fill="#111827"/>
+
+<rect x="500" y="430" width="400" height="90" rx="18" fill="#f3f4f6" stroke="#111827" stroke-width="2"/>
+<text x="700" y="470" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#111827">Node.js + Express Backend</text>
+<text x="700" y="498" text-anchor="middle" font-family="Arial" font-size="16" fill="#4b5563">API • Data Processing • AI Integration</text>
+
+<line x1="700" y1="520" x2="700" y2="575" stroke="#111827" stroke-width="4"/>
+<polygon points="700,590 690,570 710,570" fill="#111827"/>
+
+<rect x="500" y="590" width="400" height="90" rx="18" fill="#f3f4f6" stroke="#111827" stroke-width="2"/>
+<text x="700" y="630" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#111827">Gemini AI Analysis</text>
+<text x="700" y="658" text-anchor="middle" font-family="Arial" font-size="16" fill="#4b5563">Financial Intelligence Engine</text>
+
+<line x1="500" y1="635" x2="330" y2="635" stroke="#111827" stroke-width="3"/>
+<line x1="900" y1="635" x2="1070" y2="635" stroke="#111827" stroke-width="3"/>
+
+<rect x="80" y="555" width="250" height="160" rx="18" fill="#f9fafb" stroke="#9ca3af" stroke-width="2"/>
+<text x="205" y="590" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#111827">Core Metrics</text>
+<text x="205" y="625" text-anchor="middle" font-family="Arial" font-size="16" fill="#4b5563">Net Profit</text>
+<text x="205" y="650" text-anchor="middle" font-family="Arial" font-size="16" fill="#4b5563">Profit Margin</text>
+<text x="205" y="675" text-anchor="middle" font-family="Arial" font-size="16" fill="#4b5563">Expense Ratio</text>
+<text x="205" y="700" text-anchor="middle" font-family="Arial" font-size="16" fill="#4b5563">Cash Position</text>
+
+<rect x="1070" y="555" width="250" height="160" rx="18" fill="#f9fafb" stroke="#9ca3af" stroke-width="2"/>
+<text x="1195" y="590" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#111827">AI Outputs</text>
+<text x="1195" y="625" text-anchor="middle" font-family="Arial" font-size="16" fill="#4b5563">Financial Summary</text>
+<text x="1195" y="650" text-anchor="middle" font-family="Arial" font-size="16" fill="#4b5563">Risk Level</text>
+<text x="1195" y="675" text-anchor="middle" font-family="Arial" font-size="16" fill="#4b5563">Key Insights</text>
+<text x="1195" y="700" text-anchor="middle" font-family="Arial" font-size="16" fill="#4b5563">Recommendations</text>
+
+<line x1="700" y1="680" x2="700" y2="755" stroke="#111827" stroke-width="4"/>
+<polygon points="700,770 690,750 710,750" fill="#111827"/>
+
+<rect x="500" y="770" width="400" height="60" rx="16" fill="#111827"/>
+<text x="700" y="808" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#ffffff">FinanceAI Dashboard</text>
+</svg>

@@ -2,32 +2,34 @@
 
 > **AI-powered financial intelligence platform for smarter business decisions.**
 
-FinanceAI is an AI-powered financial controller that helps businesses analyze their financial performance, monitor cash flow, identify financial risks, and receive intelligent recommendations using **Gemini AI**.
+FinanceAI is an AI-powered financial controller designed to help businesses understand their financial performance, identify financial risks, and receive intelligent recommendations using **Google Gemini AI**.
 
 ---
 
-## 🚀 Overview
+## 📌 Overview
 
-Businesses generate large amounts of financial data through revenue, expenses, transactions, and cash flow. Understanding this data quickly and identifying potential financial risks can be challenging.
+Managing business finances often requires analyzing revenue, expenses, cash flow, profitability, and financial risks across multiple data sources.
 
-**FinanceAI** brings these financial metrics together in one professional dashboard and uses AI to convert financial data into meaningful insights and actionable recommendations.
+**FinanceAI** brings these capabilities into one intelligent dashboard.
+
+The platform analyzes financial data, calculates important financial metrics, identifies potential risks, and generates AI-powered insights and recommendations.
 
 ---
 
 ## 🎯 Objectives
 
-* Monitor overall business financial health
+* Monitor business financial performance
 * Analyze revenue and expenses
-* Calculate net profit and profit margin
-* Track cash flow and cash position
-* Identify potential financial risks
+* Track profitability and cash flow
+* Detect potential financial risks
 * Generate AI-powered financial insights
 * Provide practical cost-saving recommendations
-* Maintain a centralized financial dashboard
+* Present financial information through an interactive dashboard
+* Support better and faster financial decision-making
 
 ---
 
-## ✨ Key Features
+## 🚀 Key Features
 
 ### 📊 Financial Dashboard
 
@@ -36,129 +38,115 @@ Businesses generate large amounts of financial data through revenue, expenses, t
 * Net Profit
 * Cash Balance
 * Financial Health Score
-* Revenue vs Expenses visualization
+* Revenue vs Expense visualization
 
-### 💵 Revenue Analysis
+### 💰 Revenue Analysis
 
-Analyze business income and revenue performance through financial metrics and visualizations.
+* Revenue tracking
+* Revenue performance monitoring
+* Income transaction analysis
+* Revenue trend visualization
 
 ### 💸 Expense Analysis
 
-Track expenses and understand spending patterns to identify areas that may require attention.
+* Expense tracking
+* Expense ratio calculation
+* Expense monitoring
+* Cost efficiency insights
 
-### 💰 Cash Flow Monitoring
+### 📈 Profit & Loss
 
-Monitor cash position and understand the current financial condition of the business.
+* Net profit calculation
+* Profit margin analysis
+* Business profitability monitoring
+
+### 💵 Cash Flow Monitoring
+
+* Cash balance tracking
+* Cash position analysis
+* Financial stability monitoring
 
 ### ⚠️ Financial Risk Detection
 
-Identify potential financial risks and classify the overall financial risk level.
+* Risk level identification
+* Financial risk analysis
+* Risk-aware recommendations
 
-### 🤖 Gemini AI Financial Analysis
+### 🤖 AI Financial Insights
 
-FinanceAI uses Gemini AI to analyze financial data and generate:
+Powered by **Google Gemini AI** to generate:
 
 * Financial summaries
-* Key insights
+* Key financial insights
 * Risk assessment
+* Improvement suggestions
 * Cost-saving recommendations
-* Business improvement suggestions
 
 ### 🧾 Transaction Management
 
 * Add transactions
-* View recent transactions
-* Categorize income and expenses
+* Search transactions
 * Delete transactions
 * Automatically update financial metrics
 
-### 📈 Reports & Insights
+### 📄 Financial Reports
 
-Generate financial insights and review important business metrics from a centralized dashboard.
-
----
-
-## 🔄 System Workflow
-
-```text
-Financial Data
-      ↓
-Transaction Processing
-      ↓
-Revenue & Expense Calculation
-      ↓
-Financial Metrics
-      ↓
-Gemini AI Analysis
-      ↓
-Risk Detection
-      ↓
-AI Insights & Recommendations
-      ↓
-FinanceAI Dashboard
-```
+* Financial analysis reports
+* AI-generated summaries
+* Downloadable reports
 
 ---
 
-## 🧠 AI Analysis Flow
+## 🏗️ System Architecture
 
-```text
-Business Financial Data
-        ↓
-React Frontend
-        ↓
-Node.js + Express Backend
-        ↓
-Gemini AI
-        ↓
-Financial Analysis
-        ↓
-Structured AI Results
-        ↓
-Dashboard Visualization
-```
+![FinanceAI System Architecture](./financeai-architecture.svg)
+
+FinanceAI follows a modular architecture connecting the financial data layer, React frontend, Node.js backend, Gemini AI engine, financial intelligence layer, and interactive dashboard.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology   | Purpose                         |
-| ------------ | ------------------------------- |
-| React        | Frontend UI                     |
-| Vite         | Frontend development/build tool |
-| Node.js      | Backend runtime                 |
-| Express.js   | REST API                        |
-| Gemini AI    | Financial intelligence          |
-| Recharts     | Data visualization              |
-| Lucide React | UI icons                        |
-| LocalStorage | Local data persistence          |
-| CSS          | Responsive styling              |
+| Technology       | Purpose                |
+| ---------------- | ---------------------- |
+| React            | Frontend UI            |
+| Vite             | Frontend development   |
+| Node.js          | Backend runtime        |
+| Express.js       | Backend API            |
+| Google Gemini AI | Financial analysis     |
+| Recharts         | Data visualization     |
+| Lucide React     | UI icons               |
+| LocalStorage     | Local data persistence |
+| CSS              | Responsive styling     |
 
 ---
 
-## 🏗️ Project Structure
+## 📂 Project Structure
 
 ```text
 ai-finance-controller/
 │
+├── public/
+│
 ├── src/
 │   ├── App.jsx
 │   ├── App.css
-│   └── main.jsx
+│   ├── main.jsx
+│   └── assets/
 │
 ├── server/
 │   ├── server.js
 │   ├── package.json
 │   └── .env
 │
-├── public/
-│
+├── financeai-architecture.svg
 ├── package.json
+├── package-lock.json
 ├── .gitignore
 └── README.md
 ```
 
-> **Note:** `server/.env` contains the Gemini API key and is intentionally excluded from GitHub.
+> **Note:** `server/.env` contains the Gemini API key and is excluded from GitHub using `.gitignore`.
 
 ---
 
@@ -186,19 +174,11 @@ npm install
 
 ### 4. Configure Gemini API
 
-Create:
-
-```text
-server/.env
-```
-
-Add:
+Create a `.env` file inside the `server` folder:
 
 ```env
-GEMINI_API_KEY=YOUR_API_KEY
+GEMINI_API_KEY=your_gemini_api_key
 ```
-
-Never commit the `.env` file to GitHub.
 
 ### 5. Start the backend
 
@@ -208,7 +188,7 @@ Inside the `server` folder:
 node server.js
 ```
 
-Backend runs on:
+Backend:
 
 ```text
 http://localhost:5000
@@ -216,97 +196,145 @@ http://localhost:5000
 
 ### 6. Start the frontend
 
-Open another terminal in the main project folder:
+Open another terminal in the project root:
 
 ```bash
 npm run dev
 ```
 
-Frontend runs on the Vite development URL shown in the terminal.
+Frontend:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 📊 Financial Metrics
+
+FinanceAI calculates and monitors important financial indicators.
+
+### Net Profit
+
+Net Profit represents the difference between total revenue and total expenses.
+
+### Profit Margin
+
+Profit Margin measures profitability relative to total revenue.
+
+### Expense Ratio
+
+Expense Ratio represents the proportion of revenue used for business expenses.
+
+### Cash Position
+
+Cash Position provides an overview of the available business cash balance.
+
+### Financial Health Score
+
+FinanceAI combines financial indicators to provide an overall financial health assessment.
+
+---
+
+## 🤖 AI Financial Analysis
+
+FinanceAI uses **Google Gemini AI** to analyze financial information and generate intelligent insights.
+
+The AI analysis provides:
+
+* Net profit analysis
+* Profit margin analysis
+* Expense efficiency analysis
+* Cash position assessment
+* Financial risk level
+* Key financial insights
+* Cost-saving recommendations
+
+The AI output is presented directly inside the FinanceAI dashboard.
 
 ---
 
 ## 🔐 Security
 
-FinanceAI keeps the Gemini API key inside an environment variable instead of exposing it in frontend code.
+FinanceAI follows basic security practices for protecting application credentials.
 
-The following file is excluded from Git tracking:
-
-```text
-server/.env
-```
-
-API credentials should never be committed to the repository.
+* Gemini API key is stored in environment variables
+* `.env` files are excluded from Git
+* API credentials are not stored in frontend code
+* Backend handles Gemini API communication
+* Sensitive configuration is separated from source code
 
 ---
 
-## 📌 Financial Metrics
-
-FinanceAI calculates important financial indicators including:
-
-* **Net Profit**
-* **Profit Margin**
-* **Expense Ratio**
-* **Cash Position**
-* **Financial Health**
-* **Financial Risk Level**
-
-These metrics help provide a quick understanding of the business's financial condition.
-
----
-
-## 🤖 Responsible AI
+## 🧠 Responsible AI
 
 FinanceAI is designed as a **financial decision-support system**.
 
-AI-generated insights and recommendations should be reviewed by a qualified human before making important financial or business decisions.
+AI-generated insights and recommendations should be reviewed by a qualified human before making important financial decisions.
 
-The system does not replace professional financial advice.
+The system does not replace professional financial, accounting, or legal advice.
 
 ---
 
-## 🚀 Future Enhancements
+## 🔮 Future Enhancements
 
-* Real-time financial data integration
-* Database-backed transaction management
+* Real-time banking integration
+* Automated financial data import
 * Advanced financial forecasting
-* AI-powered budget planning
-* Automated financial reports
-* Multi-business support
-* User authentication and role-based access
-* Cloud deployment
-* Advanced anomaly detection
-* Predictive cash-flow analysis
+* Budget planning
+* Automated spending alerts
+* AI-powered cash-flow forecasting
+* Multi-company support
+* Role-based access control
+* Cloud database integration
+* Advanced financial risk scoring
+* PDF financial reports
+* Email-based financial alerts
 
 ---
 
-## 📸 Project Highlights
+## 🌟 Project Highlights
 
-FinanceAI provides a professional financial command center with:
-
-* Financial health monitoring
-* Revenue and expense analytics
-* AI-powered financial review
-* Risk detection
-* Cash-flow monitoring
-* Transaction management
-* AI recommendations
-* Financial reports
-
----
-
-## 🌟 Why FinanceAI?
-
-FinanceAI combines **financial analytics + AI intelligence** into a single platform.
-
-Instead of only displaying financial numbers, it helps users understand those numbers, identify potential risks, and discover opportunities for improvement.
+* ✅ AI-powered financial analysis
+* ✅ Google Gemini integration
+* ✅ Interactive financial dashboard
+* ✅ Revenue and expense tracking
+* ✅ Profitability analysis
+* ✅ Cash-flow monitoring
+* ✅ Financial risk detection
+* ✅ AI-generated recommendations
+* ✅ Transaction management
+* ✅ Responsive premium UI
+* ✅ Visual data analytics
+* ✅ Responsible AI approach
 
 ---
 
-## 👨‍💻 Project
+## 💡 Why FinanceAI?
 
-**Project:** FinanceAI – AI Financial Controller
-**Repository:** `ai-finance-controller`
-**AI Engine:** Gemini AI
+FinanceAI simplifies financial monitoring by combining traditional financial metrics with AI-powered analysis.
+
+Instead of manually analyzing multiple financial indicators, businesses can use one dashboard to understand:
+
+**Revenue → Expenses → Profit → Cash Flow → Risk → AI Insights → Recommendations**
+
+This enables faster financial understanding and supports smarter business decisions.
+
+---
+
+## 📌 Project
+
+**Project Name:** FinanceAI – AI Financial Controller
+
+**Category:** AI + FinTech
+
+**Powered by:** Google Gemini AI
+
 **Frontend:** React + Vite
+
 **Backend:** Node.js + Express
+
+**Visualization:** Recharts
+
+**Repository:**
+https://github.com/saivanisapuru23-max/ai-finance-controller
